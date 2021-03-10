@@ -1,0 +1,162 @@
+{
+  "Bodyguard": {
+    "value": 3,
+    "quantity": 1
+  },
+  "Village Idiot": {
+    "value": 2,
+    "quantity": 1
+  },
+  "Spellcaster": {
+    "value": 1,
+    "quantity": 1
+  },
+  "Hunter": {
+    "value": 3,
+    "quantity": 1
+  },
+  "Old hag": {
+    "value": 1,
+    "quantity": 1
+  },
+  "PI": {
+    "value": 3,
+    "quantity": 1
+  },
+  "Revealer": {
+    "value": 4,
+    "quantity": 1
+  },
+  "Ghost": {
+    "value": 2,
+    "quantity": 1
+  },
+  "Mentalist": {
+    "value": 6,
+    "quantity": 1
+  },
+  "Huntress": {
+    "value": 3,
+    "quantity": 1
+  },
+  "Mystic Seer": {
+    "value": 9,
+    "quantity": 1
+  },
+  "Mad Bomber": {
+    "value": -2,
+    "quantity": 1
+  },
+  "Tough Guy": {
+    "value": 3,
+    "quantity": 1
+  },
+  "Doppleganger": {
+    "value": -2,
+    "quantity": 1
+  },
+  "Witch": {
+    "value": 4,
+    "quantity": 1
+  },
+  "Mayor": {
+    "value": 2,
+    "quantity": 1
+  },
+  "Apprentice Seer": {
+    "value": 4,
+    "quantity": 1
+  },
+  "Aura Seer": {
+    "value": 3,
+    "quantity": 1
+  },
+  "Cupid": {
+    "value": -3,
+    "quantity": 1
+  },
+  "Drunk": {
+    "value": 4,
+    "quantity": 1
+  },
+  "Lycan": {
+    "value": -4,
+    "quantity": 1
+  },
+  "Pacifist": {
+    "value": -1,
+    "quantity": 1
+  },
+  "Priest": {
+    "value": 3,
+    "quantity": 1
+  },
+  "Prince": {
+    "value": 3,
+    "quantity": 1
+  },
+  "Troublemaker": {
+    "value": -3,
+    "quantity": 1
+  },
+  "Diseased": {
+    "value": 3,
+    "quantity": 1
+  },
+  "Seer": {
+    "value": 7,
+    "quantity": 1
+  },
+  "Cursed": {
+    "value": -3,
+    "quantity": 1
+  },
+  "Cult Leader": {
+    "value": 1,
+    "quantity": 1
+  },
+  "Mason": {
+    "value": 2,
+    "quantity": 3
+  },
+  "Tanner": {
+    "value": -2,
+    "quantity": 1
+  },
+  "Vampire": {
+    "value": -7,
+    "quantity": 8
+  },
+  "Lone Wolf": {
+    "value": -5,
+    "quantity": 1
+  },
+  "Alpha Wolf": {
+    "value": -9,
+    "quantity": 1
+  },
+  "Sorceress": {
+    "value": -3,
+    "quantity": 1
+  },
+  "Hoodlum": {
+    "value": 0,
+    "quantity": 1
+  },
+  "Minion": {
+    "value": -6,
+    "quantity": 1
+  },
+  "Wolf Cub": {
+    "value": -8,
+    "quantity": 1
+  },
+  "Werewolf": {
+    "value": -6,
+    "quantity": 12
+  },
+  "Villager": {
+    "value": 1,
+    "quantity": 15
+  }
+}
