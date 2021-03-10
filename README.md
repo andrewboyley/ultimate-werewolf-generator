@@ -21,6 +21,7 @@ Make sure that you have python installed on your system and then simply open a t
 
 ```bash
 cd ultimate-werewolf-generator
+python3 -m pip install tabulate prettytable
 python3 main.py
 ```
 
