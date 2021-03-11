@@ -11,9 +11,17 @@ The program will generate an even team based on the team size that you provide i
 
 ## Usage
 
+Copy this repository to your local machine by cloning it or downloading the zip file
+
+```bash
+git clone https://github.com/andrewboyley/ultimate-werewolf-generator.git
+```
+
 Make sure that you have python installed on your system and then simply open a terminal and run
 
 ```bash
+cd ultimate-werewolf-generator
+python3 -m pip install tabulate prettytable
 python3 main.py
 ```
 
