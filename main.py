@@ -5,9 +5,9 @@ starting_deck = json.load(open('ultimate_werewolf.json'))
 
 team_size = int(input('Enter team size: '))
 
-rejected = []
+rejected = ['Vampire']
 
-if not 5 <= team_size < 22:
+if not 5 <= team_size:
     print('Teams need to be between 5 and 22')
     exit()
 

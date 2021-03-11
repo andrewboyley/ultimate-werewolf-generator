@@ -45,3 +45,23 @@ class Deck:
 
             self.add_card('Mason')
             return True
+
+    # Checks to see if a Seer is present
+    def check_seers(self) -> bool:
+        grown_up_seers = {'Seer','Mystic Seer', 'Aura Seer'}
+
+        need_seers = {'Apprentice Seer'}
+
+        # Our deck has seer requirements if this passes
+        if bool(set(self.output_deck) & need_seers):
+            # Check to see if any other seers are present
+            if not bool(set(self.output_deck) & grown_up_seers):
+                # We will add a plain seer
+                #TODO: Make this a function
+                if not 'Seer' in self.available_cards.keys():
+                    return False
+                self.add_card('Seer')
+
+            return True
+        
+        return False

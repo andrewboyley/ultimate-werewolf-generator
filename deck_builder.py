@@ -1,7 +1,7 @@
 from deck import Deck
 import copy
 import random
-from prettytable import PrettyTable, MARKDOWN
+from prettytable import PrettyTable
 
 
 class Builder:
@@ -38,7 +38,6 @@ class Builder:
         table.align['Card'] = 'l'
         table.sortby = 'Quantity'
         table.reversesort = True
-        table.set_style(MARKDOWN)
         table.add_rows(data)
 
         print(table)
@@ -67,6 +66,10 @@ class Builder:
                 mason_check = self.current_deck.check_masons()
                 if mason_check:
                     # We just added our second mason
+                    continue
+
+                seer_check = self.current_deck.check_seers()
+                if seer_check:
                     continue
 
                 self.add_random_card()
